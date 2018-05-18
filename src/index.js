@@ -1,3 +1,9 @@
-const Imagefill = require('./lib')
+import Imagefill from './lib'
 
-module.exports = Imagefill.default
+export default {
+  install(Vue) {
+    Object.keys(Imagefill).forEach(key => {
+      Vue.directive(key, Imagefill[key])
+    })
+  }
+}
