@@ -1,4 +1,5 @@
 import Imagefill from './lib'
+require('./lib/style/vue-imagefill.css')
 
 export default {
   install(Vue) {

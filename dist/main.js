@@ -92,6 +92,8 @@ var _lib2 = _interopRequireDefault(_lib);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+__webpack_require__(/*! ./lib/style/vue-imagefill.css */ "./src/lib/style/vue-imagefill.css");
+
 exports.default = {
   install: function install(Vue) {
     Object.keys(_lib2.default).forEach(function (key) {
@@ -192,6 +194,17 @@ exports.default = {
     }
   }
 };
+
+/***/ }),
+
+/***/ "./src/lib/style/vue-imagefill.css":
+/*!*****************************************!*\
+  !*** ./src/lib/style/vue-imagefill.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 
